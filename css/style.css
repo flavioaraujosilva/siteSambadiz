@@ -67,7 +67,7 @@ nav ul li:hover {
 #fotoinicial img {
     width: 100%;
     margin: auto;
-    max-width: 700px;
+    max-width:815px;
     opacity: 0.9;
 }
 
@@ -158,6 +158,38 @@ nav ul li:hover {
 }
 
 /*Integrantes Perfil*/
+
+
+
+#integrantes {
+    background-color: rgb(29, 133, 133);
+    display: flex;
+   
+}
+
+#int h2 {
+       margin:0;
+       text-align: center;
+       padding: 20px;
+       color: white;
+       text-justify: inter-word;
+         background-color: rgb(29, 133, 133);
+}
+
+.box-foto-integrantes img {
+    border-radius: 190px;
+    border: solid white 2px;
+    float: left;
+    width: 40%;
+    margin: 20px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.box-foto-integrantes img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
 
 #bio-integrantes {
     font-size: 14px;
@@ -251,4 +283,90 @@ nav ul li:hover {
 
 #facebook:hover, #instagram:hover, #twiter:hover, #youtube:hover {
     opacity: 1;
+}
+
+
+@media screen and (min-width: 400px) {
+
+nav ul { 
+    margin: auto;
+     height: 60px;
+     padding: 10px;
+}
+
+ nav ul li {
+     
+      font-size: 18px;
+      
+
+ }
+
+ #fotoinicial  {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    
+     
+ }
+
+ #fotoinicial img {
+     width: 100%;
+ }
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+    #fotoinicial {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        
+  
+        
+    }
+
+    #agenda {
+        margin: 20px;
+    }
+
+    #caixa-agenda {
+        display: flex;
+    }
+
+    .box-agenda {
+        width: 33%;
+       
+    }
+
+
+    #biografia p {
+        padding: 20px;
+        font-size: 20px;
+        text-justify: auto;
+    }
+
+    #presskit {
+        width: 700px;
+    }
+
+
+    
+}
+
+
+@media screen and (min-width: 840px){
+
+    #agenda {
+        max-width: 837px;
+        margin:auto;
+
+    }
+    #biografia,
+    #bio-integrantes, #rodape
+    {
+        max-width: 820px;
+        margin:auto;
+    }
 }
